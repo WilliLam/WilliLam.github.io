@@ -1,59 +1,63 @@
-<!doctype html>
+ <!DOCTYPE html>
 <html lang="en">
-<head><title>William Lam</title>
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
 <body>
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container">
-
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="http://yourwebsite.com/">Home</a>
-        </div>
-
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="./index.html">About</a>
-                </li>
-                <li class="active">
-                    <a href="./CV.html">CV</a>
-                </li>
-                <li>
-                    <a href="./contact.html">Contact</a>
-                </li>
-            </ul>
-        </div><!--/.nav-collapse -->
-
-        </div>
+<br>
+<div class="container-fluid">
+    <h1 align="left">William Lam</h1>
+    <p align="left"><span class="glyphicon glyphicon-envelope"></span>  La.william4@gmail.com <span class="glyphicon glyphicon-git-branch"></span> https://github.com/WilliLam</p>
+</div>
+<hr>
+<div class="container-fluid" align="center">
+    <div class="row border-between" style="width:50%;" align="center">
+        <div class="col-sm-4"><a href="./" class="hyperlink"><h4>Home</h4></a></div>
+        <div class="col-sm-4"><a href="./CV.html" class="hyperlink"><h4>Experience</h4></div>
+        <div class="col-sm-4"><a href="./" class="hyperlink"><h4>Blog</h4></a></div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6"></div>
-            <div class="col-sm-6"><!--Column right--></div>
-        </div><p>something like this?</p>
+</div>
+<br>
+<br>
+<div class="container-fluid" align="left" style="width:50%">
+    <p>My full CV can be found <a href="./Static/CV_pdf.pdf"<b>here</b></a></p>
+</div>
+<br>
+<div class="container-fluid" align="left" style="width:50%">
+    <div class="row">
+        <div class="col-sm-6"><h4>Software intern, CodingGuys</h4></div>
+        <div class="col-sm-6" align="right"><h4>2018</h4></div>
     </div>
-    <p>"more hello wold"</p>
-
-    <div class="container">
-        <!-- -->
-        <embed src="./Static/CV_pdf.pdf" width="60%" height="1000px" />
+    <p>Developed and evaluated neural networks to classify posts, improving accuracy from ~84% to 92%.</p>
+</div>
+<br>
+<div class="container-fluid" align="left" style="width:50%">
+    <div class="row">
+        <div class="col-sm-6"><h4>THEFE website</h4></div>
+        <div class="col-sm-6" align="right"><h4>2018</h4></div>
     </div>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <p>A website created for a hackathon food waste challenge. I added a Flask to it afterwards to practice backend.</p>
+</div>
+<br>
+<div class="container-fluid" align="left" style="width:50%">
+    <div class="row">
+        <div class="col-sm-6"><h4>Pong</h4></div>
+        <div class="col-sm-6" align="right"><h4>2018</h4></div>
+    </div>
+    <p>First attempt at using Unity, even bugs out sometimes!</p>
+</div>
+<br>
+<div class="container-fluid" align="left" style="width:50%">
+    <div class="row">
+        <div class="col-sm-6"><h4>Netlogo simulation</h4></div>
+        <div class="col-sm-6" align="right"><h4>2017</h4></div>
+    </div>
+    <p>A simulation for modelling the spread of disease in small communities depending on a number of variables.</p>
+</div>
 </body>
-</html>
+ </html>
