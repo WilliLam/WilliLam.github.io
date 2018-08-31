@@ -9031,3 +9031,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body{background-color:#ffdab9}
 /*# sourceMappingURL=bootstrap.css.map */
+
+.navs{border-left-style: solid; border-right-style: solid;border-color:grey; border-width:2px}
+
+.hyperlink{color:grey}
