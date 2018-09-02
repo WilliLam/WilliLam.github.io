@@ -6764,6 +6764,8 @@ body{background-color:#ffdab9}
 
 .postitle{display:inline;}
 
+.icons{color:black}
+
 p{font-size:18px;}
 
 .border-between > [class*='col-']:before {
