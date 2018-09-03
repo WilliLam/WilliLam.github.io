@@ -1,13 +1,11 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Experience</title>
+  <title>Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 </head>
 <body>
 <br>
@@ -16,13 +14,24 @@
     <p align="left"><a href="mailto://la.william4@gmail.com" class="hyperlink"><span class="icon far fa-envelope" title="github"></span>La.william4@gmail.com</a> <a href="https://github.com/WilliLam" target="_blank" class="hyperlink"><span class="icon fab fa-github" title="github"></span> WilliLam</a></p>
 </div>
 <hr>
-<div class="container" align="center">
-    <div class="row border-between" style="width:70%;" align="center">
-        <div class="col-sm-4"><a href="./index.html" class="hyperlink"><h4>Home</h4></a></div>
-        <div class="col-sm-4"><a href="./CV.html" class="hyperlink"><h4>Experience</h4></a></div>
-        <div class="col-sm-4"><a href="./" class="hyperlink"><h4>Blog</h4></a></div>
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div>
-</div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav border-between">
+        <li class="active border-between"><a href="./index.html">Home</a></li>
+        <li class="border-between"><a href="./CV.html">Experience</a></li>
+        <li class="border-between"><a href="./index.html">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <br>
 <br>
 <div class="container" align="left" style="width:50%">
@@ -60,5 +69,8 @@
     </div>
     <p>A simulation for modelling the spread of disease in small communities, allows for the setting different variables.</p>
 </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
  </html>
