@@ -6806,5 +6806,8 @@ hr{border-color:black}
 
  .border-between :first-child:before {
    display: none;
-}
+    }
+
+ .infocols {
+ width : 70%}
 }
