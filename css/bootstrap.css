@@ -4167,7 +4167,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   margin-bottom: 0px;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -6793,6 +6793,19 @@ hr{border-color:black}
     }
 }
 
+@media {max-width: 768px}{
+ .border-between :below {
+   background: #000000;
+   bottom: 0;
+   content: " ";
+   left: 0;
+   position: absolute;
+   width: 2px;
+   top: 0;
+    }
+}
+
+
 @media (min-width:768px) {
  .border-between :before {
    background: #000000;
@@ -6808,6 +6821,14 @@ hr{border-color:black}
    display: none;
     }
 
+
+
  .infocols {
  width : 70%}
 }
+
+.description{
+font-size:1em;}
+
+.navlink{
+text-decoration:underline;}
