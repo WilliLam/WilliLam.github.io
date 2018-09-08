@@ -4166,7 +4166,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 0px;
   border: 0px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4184,9 +4183,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 15px;
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
-  border-top: 1px solid transparent;
+  border-top: none;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+  box-shadow:none;
+
 }
 .navbar-collapse.in {
   overflow-y: auto;
@@ -6756,7 +6757,7 @@ button.close {
   }
 }
 
-body{background-color:#ffdab9}
+body{background-color:#f6f6f6}
 /*# sourceMappingURL=bootstrap.css.map */
 
 .navs{border-left-style: solid; border-right-style: solid;border-color:grey; border-width:2px;}
@@ -6793,16 +6794,8 @@ hr{border-color:black}
     }
 }
 
-@media {max-width: 768px}{
- .border-between :below {
-   background: #000000;
-   bottom: 0;
-   content: " ";
-   left: 0;
-   position: absolute;
-   width: 2px;
-   top: 0;
-    }
+@media (max-width: 768px) {
+  background-color:black;
 }
 
 
@@ -6815,6 +6808,8 @@ hr{border-color:black}
    position: absolute;
    width: 2px;
    top: 0;
+  .icon {
+  }
     }
 
  .border-between :first-child:before {
@@ -6832,3 +6827,7 @@ font-size:1em;}
 
 .navlink{
 text-decoration:underline;}
+
+.face{
+max-width:500px;
+width:100%;}
