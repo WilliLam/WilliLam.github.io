@@ -6770,11 +6770,6 @@ body{background-color:#f6f6f6}
 
 p{font-size:18px;}
 
-
-
-.border-between{
-font-size:20px}
-
 hr{border-color:black}
 
 .navbar .navbar-nav {
@@ -6815,7 +6810,7 @@ hr{border-color:black}
  .border-between :first-child:before {
    display: none;
     }
-
+}
 
 
  .infocols {
@@ -6832,11 +6827,11 @@ text-decoration:underline;}
 max-width:500px;
 width:100%;}
 
-.link{
-font-size:1.2em;
+.welink{
+font-size:1.8em;
 color:#b3b3b3}
 
 
-.link:hover{
+.welink:hover{
 color:#bfbfbf;
 text-decoration:underline;}
