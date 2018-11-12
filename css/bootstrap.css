@@ -6831,3 +6831,12 @@ text-decoration:underline;}
 .face{
 max-width:500px;
 width:100%;}
+
+.link{
+font-size:1.2em;
+color:#b3b3b3}
+
+
+.link:hover{
+color:#bfbfbf;
+text-decoration:underline;}
